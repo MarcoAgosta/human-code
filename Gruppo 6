@@ -2,10 +2,16 @@
     -Se ho fame, ho voglia di pizza? T / F 
         -Voglio cambiare la pizza solita? T / F
             -Leggo la prima pizza del listino
-            -Mi piace? T (Ho selezionato la piazza da ordinare)/ F (continuo giù)
-                -Ci sono pizze seguenti? T (proseguo) / F
-            -Prendo la solita pizza
-
+            -Mi piace? T / F
+                -Ho selezionato la piazza da ordinare
+            Else
+                -Ci sono pizze seguenti? T / F
+                    -Vado a leggere la pizza successiva
+                Else
+                    -Prendo la solita pizza
+        Else
+        -Seleziono la pizza solita
+        
         -Chiamare la pizzeria con servizio a domicilio.
 
         -La pizza arriva puntuale? T / F
@@ -24,6 +30,7 @@
             -Comincio subito
 
         -Mangio una fetta di pizza
+
         -Ho ancora fame? T / F
             -Ci sono altre fette? T / F
                 -Mangio un'altra fetta
